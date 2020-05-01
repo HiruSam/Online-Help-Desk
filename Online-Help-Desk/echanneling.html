@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eco E-Channeling</title>
+		<link rel="stylesheet" type="text/css" href="styles/stylesheet.css"/>
+		<style>
+			
+			div.diabetic
+			{
+    				position: absolute;
+    				top: 200px;
+    				right: 550px;
+    				width: 120px;
+    				height: 75px;
+			
+			}
+			div.ENT
+			{
+    				position: absolute;
+    				top: 200px;
+    				right: 470px;
+    				width: 120px;
+    				height: 75px;
+			
+			}
+			div.heart
+			{
+    				position: absolute;
+    				top: 200px;
+    				right: 410px;
+    				width: 120px;
+    				height: 75px;
+			
+			}
+			div.drop
+			{
+					position: absolute;
+    				top: 200px;
+    				right: 410px;
+    				width: 200px;
+    				height: 30px;
+					background-color:#333;
+			
+			}	
+			select 
+			{
+				background-color: #333;
+				border: #333;
+				border-radius: 4px;
+				display: inline-block;
+				font: inherit;
+				color:white;
+				line-height: 1.5em;
+				padding: 0.5em 3.5em 0.5em 1em;
+
+				margin: 0;      
+				-webkit-box-sizing: border-box;
+				-moz-box-sizing: border-box;
+				box-sizing: border-box;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+			}
+			
+			select.round 
+			{
+				background-image:
+					linear-gradient(45deg, transparent 50%, gray 50%),
+					linear-gradient(135deg, gray 50%, transparent 50%),
+					radial-gradient(#ddd 70%, transparent 72%);
+				background-position:
+					calc(100% - 20px) calc(1em + 2px),
+					calc(100% - 15px) calc(1em + 2px),
+					calc(100% - .5em) .5em;
+				background-size:
+					5px 5px,
+					5px 5px,
+					1.5em 1.5em;
+					background-repeat: no-repeat;
+			}
+
+			select.round:focus 
+			{
+				background-image:
+					linear-gradient(45deg, white 50%, transparent 50%),
+					linear-gradient(135deg, transparent 50%, white 50%),
+					radial-gradient(gray 70%, transparent 72%);
+				background-position:
+					calc(100% - 15px) 1em,
+					calc(100% - 20px) 1em,
+					calc(100% - .5em) .5em;
+				background-size:
+					5px 5px,
+					5px 5px,
+					1.5em 1.5em;
+				background-repeat: no-repeat;
+				border-color: green;
+				outline: 0;
+			}
+			
+			div.kidney
+			{
+    				position: absolute;
+    				top: 200px;
+    				right: 350px;
+    				width: 120px;
+    				height: 75px;
+			
+			}
+			div.luekamia
+			{
+    				position: absolute;
+    				top: 200px;
+    				right: 280px;
+    				width: 120px;
+    				height: 75px;
+			
+			}
+			div.main
+			{
+				border: 4px solid #333;	
+    				position: absolute;
+    				top: 200px;
+    				right: 350px;
+    				width: 700px;
+    				height: 320px;
+				padding: 26px 26px;
+				background-image: url(pic.jpg);
+    				background-position: center;
+    				background-repeat: no-repeat;
+    				background-size: cover;
+			}
+			
+		</style>
+	</head>
+	
+	<body>
+		<div class="bg">
+			<div style="height: .1px;width: 100%;">
+				<div style="float:left;width:30%"><a href="index.html"><img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-0qSMoi8QUEPaGom3JcyBN1D6EDgMKPPNvNZr3mj2rECvLvNK" length="920 pxl" width="175 pxl"></a></div>
+				<div style="float:right;width:70%"><p style="font-family:serif;"><font size= "10" color="green"  ></font></p></br></br></br>
+					<div class="signup"><a href="signup.php" class="button">Sign Up</a></div>
+					<div class="login"><a href="LOGIN123.php" class="button">Log In</a></div>
+					<div class="home"><a href="index.html" class="button">Home</a></div>
+					<div class="admin"><a href="LOGIN_admin.php" class="button">Admin</a></div>
+					<div class="header"><img class="header" src="pics\images.jpg" alt="Avatar" style="width:125px"></div>
+					<div class="header1"><img class="header" src="pics\images3.jpg" alt="Avatar" style="width:200px;height:125px;"></div>
+					<div class="header2"><img class="header" src="pics\images2.jpg" alt="Avatar" style="width:140px"></div>
+				</div>	
+				
+			</div><br><br><br><br><br><br><br><br>
+			<div class="navbar">
+  				
+					<div class="dropdown">
+    						<button class="dropbtn">Home 
+      						<i class="fa fa-caret-down"></i>
+   			 			</button>
+    					
+  					
+					<div class="dropdown-content">
+      						<a href="searching.html">Wikipedia</a>
+      						<a href="blogpage.html">Doctor's Blog</a>
+    
+    					</div>
+					</div>
+					<a href="Echanneling.html">Channel</a>
+					<a href="history.html">Channel History</a>
+  					<a href="LOGIN_contactus.php">Contact Us</a>
+  					<a href="LOGIN_claimrefund.php">Claims Re - fund</a>	
+			
+			</div><br><br>
+			<div class="main"><br><center>
+				<br><br><br>
+				</center>
+				<strong><font size= "5" color="black" style="serif" > Hospital Name </font>
+				<br>
+				<div style="width:200px;">
+  				<select class="round">
+    					<option value="0">Select the hospital</option>
+    					<option value="1">Durdans</option>
+    					<option value="2">Asiri</option>
+    					<option value="3">Lanka Hospitals</option>
+							<option value="4">Nawaloka Hospitals</option>
+  				</select>
+				</div></strong<br><br>
+				
+				<strong><font size= "4.5" color="black" style="serif" > Specialization </font></strong>
+				<br>
+				<div  style="width:200px;">
+  				<select class="round" name="forma" onchange="location = this.options[this.selectedIndex].value;">
+    					<option value="0">Select the disease</option>
+    					<option value="Diabetic.html">Diabetic</option>
+    					<option value="ENT.html">ENT</option>
+    					<option value="Heart.html">Heart</option>
+						<option value="Kidney.html">Kidney</option>
+						<option value="leukamia.html">Leukamia</option>
+  				</select>
+				</div>
+				
+				
+				
+			</div>
+				
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			<footer >
+
+				<img src = "pics\insta.png" alt="Avatar"style = "float : right ; width : 30px ; height : 30px ;">
+
+				<img src = "pics\download.png" alt="Avatar"style = "float : right ; width : 30px ; height : 30px ;">
+
+				<img src = "pics\twit.png" alt="Avatar"style = "float :right  ; width : 30px ; height : 30px ;">
+				<div class="footer"></div>
+			</footer>
+		</div>
+		
+
+		
+	</body>
+	
+</html>
